@@ -1,7 +1,6 @@
+;;; -*- Package: ccl; -*-
 
 (in-package :ccl)
-
-;;; it had required an initial access keyword
 
 (let ((*warn-if-redefine* nil)
       (*warn-if-redefine-kernel* nil))

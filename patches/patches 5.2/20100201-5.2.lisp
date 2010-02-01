@@ -1,7 +1,9 @@
+;;; -*- Package: ccl; -*-
 
 (in-package :ccl)
 
-;;; guard against eof in mid sequence
+;;; the thing to be used for the eror message was not acceptable to %method-gf
+;;; in the observed case it was a combined method, so try that path
 
 (let ((*warn-if-redefine* nil)
       (*warn-if-redefine-kernel* nil))
