@@ -1,8 +1,8 @@
 MCL
 ===
 
-[Macintosh Common Lisp URL][mcl] (still) continues to be an effective integrated development environment for Lisp.
- [mcl]: http://en.wikipedia.org/wiki/Macintosh_Common_Lisp
+[Macintosh Common Lisp][src] (still) continues to be an effective integrated development environment for Lisp.
+ [src]: http://en.wikipedia.org/wiki/Macintosh_Common_Lisp
 This collection comprises patches for version 5.2. Create the directory `"CCL:patches;patches 5.2;"`, place the patch files there and add something like
 
     (defvar *patches-loaded* nil)
